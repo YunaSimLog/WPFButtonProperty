@@ -25,7 +25,7 @@ namespace WPFButtonProperty
             InitializeComponent();
         }
 
-        private void OKCancelButton_Clicked(object sender, RoutedEventArgs e)
+        private void OKCancelButton_Click(object sender, RoutedEventArgs e)
         {
             OKCancelDialog okCancelDialog = new OKCancelDialog();
             okCancelDialog.ShowDialog();

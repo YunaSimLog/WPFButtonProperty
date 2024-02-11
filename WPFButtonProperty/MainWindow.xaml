@@ -10,6 +10,6 @@
         <Button Height="200"
         Content="OK Cancel Dialog"
         FontSize="20"
-        Click="OKCancelButton_Clicked"/>
+        Click="OKCancelButton_Click"/>
     </Grid>
 </Window>
