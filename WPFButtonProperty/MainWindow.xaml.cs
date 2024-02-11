@@ -28,7 +28,8 @@ namespace WPFButtonProperty
         private void OKCancelButton_Click(object sender, RoutedEventArgs e)
         {
             OKCancelDialog okCancelDialog = new OKCancelDialog();
-            okCancelDialog.ShowDialog();
+            bool? result = okCancelDialog.ShowDialog();
+            MessageBox.Show(result.ToString());
         }
     }
 }

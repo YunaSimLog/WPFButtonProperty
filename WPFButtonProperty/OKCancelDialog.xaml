@@ -27,12 +27,16 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
-            <Button  Grid.Column="0"
-                     Style="{StaticResource btn}"
-                     Content="OK"></Button>
-            <Button  Grid.Column="1"
-                     Style="{StaticResource btn}"
-                     Content="Cancel"></Button>
+            <Button x:Name="btnOK"
+                    Grid.Column="0"
+                    Style="{StaticResource btn}"
+                    Content="OK"
+                    IsDefault="True"
+                    Click="btnOK_Click"></Button>
+            <Button Grid.Column="1"
+                    Style="{StaticResource btn}"
+                    Content="Cancel"
+                    IsCancel="True"></Button>
         </Grid>
     </Grid>
 </Window>
